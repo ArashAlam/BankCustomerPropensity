@@ -64,3 +64,8 @@ Output variable (desired target):
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
 
 ### Process flow
+
+After importing the anticipated modules and libraries for this project, we will start with an arbitrary Exploratory Data Analysis that includes visualizations and written summaries, followed by a preprocessing and feature engineering process that takes into account findings from the analyses. We plan to fit a variety of machine learning models (Linear, Neighbors, and Ensemble) in multiple cases, as well as a Neural Network and then compare our results before a finalized recommendation.
+
+![image](https://user-images.githubusercontent.com/47582640/124597066-fda24a00-de30-11eb-8abf-bb51401819b6.png)
+
