@@ -136,13 +136,16 @@ The best resulting model, Random Forest Classifier, is shown below. Results for 
 
 To compare the results of the classifier models used to a neural I designed a 3 layer Neural Network with the help of TensorFlow on processed data without SMOTE. I used 20 units on the first 2 layers to roughly match the features being utilized, with a sigmoid activation function within each neuron. The final layer gives a propensity between 0 and 1, and I will test out the results by classifying a propensity above 0.5 as being a yes, and under 0.5 as being a no. Because of the presence of under 50,000 samples, I anticipate this being a relatively quick and efficient training process for ad hoc analysis
 
-The resulting neural network basically seems to converge at roughly 0.90 accuracy around 10 epochs without being demanding on the GPU. We can test this out.
+The resulting neural network basically seems to roughly converge at roughly 0.90 accuracy around 20 epochs without being demanding on the GPU. We can test this out.
 
-![image](https://user-images.githubusercontent.com/47582640/124598818-0bf16580-de33-11eb-82fe-68985d21f50d.png)
+![image](https://user-images.githubusercontent.com/47582640/125771085-8ce42851-f9c0-43ef-8cab-117d1a615125.png)
 
 ## Feature Importance
 
 We can use Recursive Feature Elimination (RFE) to see the impacts of most important features, ranked, on the best classifier model we tested out, an ensemble Random Forest Classifier using the numerical and categorical data.
+
+![image](https://user-images.githubusercontent.com/47582640/125771322-e268c669-d0a5-4a86-a01c-51fc7dfd0df5.png)
+
 
 # Summary of Results
 
